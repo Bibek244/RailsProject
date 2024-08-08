@@ -1,5 +1,0 @@
-:scheduler:
-  :schedule:
-    InvokeRake:
-      cron: '0 0 * * * *'
-      class: InvokeRake
