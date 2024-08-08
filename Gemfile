@@ -65,3 +65,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem 'sidekiq', '~> 7.3'
+gem 'json', '~> 2.7', '>= 2.7.2'
+gem 'redis', '~> 5.2'
+gem 'httparty', '~> 0.22.0'
+gem 'sidekiq-scheduler', '~> 5.0', '>= 5.0.6'

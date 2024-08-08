@@ -17,6 +17,10 @@ class ApiServices
     def get_post(post_id)
       self.class.get("/posts/#{post_id}")
     end
+    
+    def get_comments(post_id)
+      self.class.get("/comments?postId=#{post_id}")
+    end 
 
     # def users
     #   self.class.get("/users")
